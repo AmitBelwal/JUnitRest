@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.home.app.dao.HomeDAO;
+import com.home.app.dao.com.home.app.dao.HomeDAO;
 import com.home.app.entity.Employee;
 
 @Service

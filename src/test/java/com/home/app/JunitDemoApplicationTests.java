@@ -13,7 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import com.home.app.dao.HomeDAO;
+import com.home.app.dao.com.home.app.dao.HomeDAO;
 import com.home.app.entity.Employee;
 import com.home.app.service.HomeService;
 
