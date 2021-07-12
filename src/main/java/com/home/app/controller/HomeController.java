@@ -26,7 +26,7 @@ public class HomeController {
 		return employeeList;
 	}
 	
-	@PostMapping("/employees")
+	@PostMapping("/employee")
 	public Employee createEmployee(Employee employee) {
 		Employee newEmployee = service.saveEmployee(employee);
 		return newEmployee;
