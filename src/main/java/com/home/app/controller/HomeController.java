@@ -20,7 +20,7 @@ public class HomeController {
 	private HomeService service;	
 	
 	
-	@GetMapping("/employee")
+	@GetMapping("/employees")
 	public List<Employee> getEmployees() {
 		List<Employee> employeeList = service.getList();
 		return employeeList;
